@@ -51,7 +51,7 @@ $L(W_i^k) = \mathcal{L}(W_i^k)(\mathcal{D}) - \mathcal{L}(W_i^k = 0)(\mathcal{D}
 
 ---
 
-### 📊 Experimental Setup
+### Experimental Setup
 
 - **Tested on**:
   - **LLaMA-7B**
@@ -63,7 +63,7 @@ $L(W_i^k) = \mathcal{L}(W_i^k)(\mathcal{D}) - \mathcal{L}(W_i^k = 0)(\mathcal{D}
 
 ---
 
-### ✅ Key Results
+### Key Results
 
 - **20% pruning** of LLaMA-7B:
   - Retains **~95%** of original zero-shot performance after LoRA tuning.
@@ -78,7 +78,7 @@ $L(W_i^k) = \mathcal{L}(W_i^k)(\mathcal{D}) - \mathcal{L}(W_i^k = 0)(\mathcal{D}
 
 ---
 
-### 📉 Limitations and Observations
+### Limitations and Observations
 
 - **>50% pruning** results in **significant performance drop**.
 - **Poor importance estimation** or **ignoring dependencies** leads to failure in zero-shot tasks.
